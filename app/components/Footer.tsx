@@ -60,10 +60,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom line */}
-      <div className="border-t border-gray-300 mt-12 pt-6 text-sm text-gray-500">
-        © {new Date().getFullYear()} Divyanshi Jangid — All rights reserved.
-      </div>
+
     </footer>
   );
 };
