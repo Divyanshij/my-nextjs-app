@@ -6,23 +6,15 @@ import { useState } from "react";
 
 const Navbar = () => {
     const { theme, setTheme } = useTheme();
-    const[isMobileMenuOpen, setIsMobileMenuOpen] = useState<Boolean>(false);
-    const toggleMobileMenu = () => {
-        setIsMobileMenuOpen(!isMobileMenuOpen);
-    }
+    const [isOpen, setIsOpen] = useState(false);
+    
     const menuItems = [
         {  label: 'Home',href: '/'},
         {  label: 'About',href: '/components/About.tsx'},
         {  label: "Projects",href: '/projects'},
         { label: 'Contact',href: '/contact'}
     ]
-    const toggleThemeSwitch = () => {
-        if(theme === 'dark'){
-            setTheme('light');
-        }else{
-            setTheme('dark');
-        }
-    }
+    
   return (
     <nav className="fixed w-full bg-black dark:bg-dark/80 backdrop-blur-sm z-50 py-15">
     <div className="container max-w-8xl mx-auto px-4">

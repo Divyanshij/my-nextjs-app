@@ -15,10 +15,10 @@ const About = () => {
         </h1>
 
         <p className="text-xl leading-relaxed max-w-5xl" >       
-           Hi, I'm Divyanshi Jangid, a BSc Computer Mathematics graduate passionate about UI/UX design.
-          , I blend technical skills with creative thinking to craft user-friendly, visually appealing
+           Hi, I &apos;m Divyanshi Jangid, a BSc Computer Mathematics graduate passionate about UI/UX design.
+           I blend technical skills with creative thinking to craft user-friendly, visually appealing
           interfaces using tools like <span className="text-teal-400">Figma</span> and
-          <span className="text-teal-400"> Visily</span>. I’m eager to join a dynamic team where I can
+          <span className="text-teal-400"> Visily</span>. I &apos;m eager to join a dynamic team where I can
           grow and contribute to impactful design solutions.
         </p>
       </div>
