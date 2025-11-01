@@ -1,12 +1,10 @@
 "use client";
 import Link from 'next/link';
 import { useTheme } from 'next-themes'
-import { useState } from "react";
 
 
 const Navbar = () => {
     const { theme, setTheme } = useTheme();
-    const [isOpen, setIsOpen] = useState(false);
     
     const menuItems = [
         {  label: 'Home',href: '/'},
