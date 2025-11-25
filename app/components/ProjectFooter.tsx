@@ -2,9 +2,9 @@
 
 import Link from "next/link";
 
-const Footer = () => {
+const ProjectFooter = () => {
   return (
-    <footer className="bg-white text-black px-6 sm:px-10 md:px-16 py-16 flex flex-col items-center text-center">
+    <footer className="w-screen bg-black text-white px-6 sm:px-10 md:px-16 py-16 flex flex-col items-center text-center -mx-6 sm:-mx-10 md:-mx-16">
       {/* Main message */}
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-8">
         I&apos;d love to create something great with your team,&nbsp;
@@ -63,4 +63,4 @@ const Footer = () => {
   );
 };
 
-export default Footer;
+export default ProjectFooter;
