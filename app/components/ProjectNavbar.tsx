@@ -1,11 +1,7 @@
 "use client";
 import Link from 'next/link';
-import { useTheme } from 'next-themes';
 
-
-
-const Navbar = () => {
-    const { theme, setTheme } = useTheme();
+const ProjectNavbar = () => {
     
     const menuItems = [
         {  label: 'Home',href: '/'},
@@ -40,4 +36,4 @@ const Navbar = () => {
   )
 }
 
-export default Navbar
+export default ProjectNavbar

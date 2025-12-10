@@ -10,6 +10,7 @@ export default function Home() {
     <About />
     <Projects />
     <ConnectSection />
+    <Footer />
     </div> 
     </>
   )

@@ -1,6 +1,5 @@
 import React from 'react';
 import Image from "next/image";
-import Link from "next/link";
 import ProjectNavbar from '@/app/components/ProjectNavbar';
 import ProjectFooter from '@/app/components/ProjectFooter';
 const Project4Page = () => {
