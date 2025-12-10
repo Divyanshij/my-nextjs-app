@@ -120,7 +120,7 @@ const FlipkartRedesignPage = () => {
             <br/>
             <br/>
             <br/>
-            Color & Storage  selection should appear right after the product name, but currently it's placed too far down after bank offers and other sections.
+            Color & Storage  selection should appear right after the product name, but currently it&apos;s placed too far down after bank offers and other sections.
             </p>
           </div>
           <div className="flex-shrink-0 ">
