@@ -3,7 +3,6 @@ import Link from "next/link";
 
 
 const Navbar = () => {
-  
   const menuItems = [
     { label: "Home", href: "/" },
     { label: "About", href: "/about" },
