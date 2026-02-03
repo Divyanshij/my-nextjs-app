@@ -16,10 +16,10 @@ const CryptoAppPage = () => {
            and trade with confidence — all in one <br className="hidden lg:block"/>seamless experience.
           </h2>
           {/* Images of the Crypto App */}
-          <div className='absolute left-1/2 bottom-0 flex w-full max-w-4xl translate-y-2/5 -translate-x-1/2 justify-between items-end gap-4 sm:gap-6 md:gap-8 lg:gap-10 px-4 lg:px-0'>
-            <Image src="/Images/cryptoscreen1.png" alt="Crypto App screen 1" width={250} height={250} className='w-20 sm:w-32 md:w-40 lg:w-auto h-auto drop-shadow-2xl rounded-2xl' />
-            <Image src="/Images/cryptoscreen2.png" alt="Crypto App screen 2" width={240} height={240} className='w-20 sm:w-32 md:w-40 lg:w-auto h-auto drop-shadow-2xl rounded-2xl -translate-y-[-40px] sm:-translate-y-[-60px] md:-translate-y-[-80px] lg:-translate-y-[-90px]'/>
-            <Image src="/Images/cryptoscreen3.png" alt="Crypto App screen 3" width={250} height={250} className='w-20 sm:w-32 md:w-40 lg:w-auto h-auto drop-shadow-2xl rounded-2xl' />
+          <div className='absolute left-1/2 bottom-0 flex w-full max-w-5xl translate-y-2/5 -translate-x-1/2 justify-between items-end gap-4 sm:gap-6 md:gap-8 lg:gap-10 px-4 lg:px-0'>
+            <Image src="/Images/cryptoscreen1.png" alt="Crypto App screen 1" width={250} height={250} className='w-20 sm:w-32 md:w-40 lg:w-[260] h-auto drop-shadow-2xl rounded-2xl' />
+            <Image src="/Images/cryptoscreen2.png" alt="Crypto App screen 2" width={250} height={240} className='w-20 sm:w-32 md:w-40 lg:w-[260] h-auto drop-shadow-2xl rounded-2xl -translate-y-[-40px] sm:-translate-y-[-60px] md:-translate-y-[-80px] lg:-translate-y-[-90px]'/>
+            <Image src="/Images/cryptoscreen3.png" alt="Crypto App screen 3" width={250} height={250} className='w-20 sm:w-32 md:w-40 lg:w-[260] h-auto drop-shadow-2xl rounded-2xl' />
           </div>
         </div>
         {/* About Project Section */}
@@ -32,14 +32,14 @@ const CryptoAppPage = () => {
       </div>
       {/* Skills Section */}
       <div className='px-4 sm:px-8 md:px-12 lg:px-100 flex flex-row flex-wrap gap-4 sm:gap-6 md:gap-8 lg:gap-50 justify-center lg:justify-start'>
-        <div className='inline-block bg-[#7767AB] rounded-lg px-4 sm:px-6 py-2 sm:py-3 text-white text-sm sm:text-base'>UI Design</div>
-        <div className='inline-block bg-[#7767AB] rounded-lg px-4 sm:px-6 py-2 sm:py-3 text-white text-sm sm:text-base'>UX Design</div>
-        <div className='inline-block bg-[#7767AB] rounded-lg px-4 sm:px-6 py-2 sm:py-3 text-white text-sm sm:text-base'>User Interview</div>
+        <div className='inline-block bg-[#7767AB] rounded-xl px-4 sm:px-10 py-2 sm:py-3 text-white text-sm sm:text-base'>UI Design</div>
+        <div className='inline-block bg-[#7767AB] rounded-xl px-4 sm:px-10 py-2 sm:py-3 text-white text-sm sm:text-base'>UX Design</div>
+        <div className='inline-block bg-[#7767AB] rounded-xl px-4 sm:px-10 py-2 sm:py-3 text-white text-sm sm:text-base'>User Interview</div>
       </div>
       {/* User Persona Section */}
       <div className='px-4 sm:px-8 md:px-12 lg:px-140 flex flex-row flex-wrap gap-4 sm:gap-6 md:gap-8 lg:gap-50 py-6 sm:py-8 lg:py-10 justify-center lg:justify-start'>
-        <div className='inline-block bg-[#7767AB] rounded-lg px-4 sm:px-6 py-2 sm:py-3 text-white text-sm sm:text-base'>Wireframing</div>
-        <div className='inline-block bg-[#7767AB] rounded-lg px-4 sm:px-6 py-2 sm:py-3 text-white text-sm sm:text-base'>Prototyping</div>
+        <div className='inline-block bg-[#7767AB] rounded-xl px-4 sm:px-10 py-2 sm:py-3 text-white text-sm sm:text-base'>Wireframing</div>
+        <div className='inline-block bg-[#7767AB] rounded-xl px-4 sm:px-10 py-2 sm:py-3 text-white text-sm sm:text-base'>Prototyping</div>
         </div>
         <div className='flex flex-col item-align-left px-4 sm:px-8 md:px-12 lg:px-40 py-4 sm:py-6 lg:py-5'>
         <h2 className='text-2xl sm:text-3xl md:text-4xl lg:text-4xl font-semibold text-black text-align-left py-6 sm:py-8 lg:py-10 px-4 sm:px-8 md:px-12 lg:px-30'>User Persona</h2>
@@ -51,8 +51,8 @@ const CryptoAppPage = () => {
       </div>
       {/* User Persona Images Section */}
       <div className='flex flex-col px-4 sm:px-8 md:px-12 lg:px-90 gap-4 lg:gap-0'>
-        <Image src="/Images/FemaleUserPersona.png" alt="User Persona" width={700} height={500} className='w-full max-w-[600px] lg:max-w-none h-auto lg:w-auto'/>
-        <Image src="/Images/MaleUserPersona.png" alt="User Persona" width={700} height={700} className='w-full max-w-[600px] lg:max-w-none h-auto lg:w-auto lg:ml-auto'/>
+        <Image src="/Images/FemaleUserPersona.png" alt="User Persona" width={300} height={300} className='max-w-[300px] lg:max-w-[650px] h-auto lg:w-auto'/>
+        <Image src="/Images/MaleUserPersona.png" alt="User Persona" width={300} height={300} className=' max-w-[300px] lg:max-w-[650px] h-auto lg:w-auto '/>
       </div>
       {/* Secondary Research Section */}
       <div className='flex flex-col item-align-left px-4 sm:px-8 md:px-12 lg:px-40 py-12 sm:py-16 lg:py-20'>
@@ -93,6 +93,7 @@ const CryptoAppPage = () => {
         <div className=' pt-20 w-screen px-6 sm:px-10 md:px-16'>
           <ProjectFooter />
         </div>
+        
       </div>
       </div>
   );

@@ -8,9 +8,11 @@ const FlipkartRedesignPage = () => {
     <div className="bg-white text-black px-6 py-16 md:px-16">
       <ProjectNavbar />
       <div className="flex flex-col items-center justify-center">
-        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-semibold mb-4 sm:mb-6 lg:mb-6 text-center">
-          Modernizing a Trusted <br className="hidden lg:block" /> Platform with Fresh Design <br className="hidden lg:block" /> Thinking
+        <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-5xl font-semibold mb-4 sm:mb-6 lg:mb-6 text-center ">
+          Modernizing a Trusted <br className="hidden lg:block" /> Platform with Fresh Design Thinking
         </h1>
+        <br/>
+        <br/>
         <div>
           <h2 className="text-xl sm:text-2xl lg:text-2xl font-semibold mb-4 sm:mb-6 lg:mb-6 text-center text-underline">Overview</h2>
           <p className="text-base sm:text-lg lg:text-lg text-gray-500 mb-4 text-center max-w-3xl leading-relaxed px-4 lg:px-0">
@@ -75,7 +77,7 @@ const FlipkartRedesignPage = () => {
         <h2 className='text-xl sm:text-2xl lg:text-2xl font-semibold mb-4 sm:mb-6 lg:mb-6 text-center text-underline'> Why to Redesign ?</h2>
         <Image src="/Images/why to redesign.png" alt="Why Redesign" width={200} height={100} className="w-32 sm:w-40 lg:w-auto h-auto" />
       </div>
-      <div className="gap-6 sm:gap-8 lg:gap-10 w-full max-w-5xl lg:w-7xl min-h-[400px] sm:min-h-[500px] md:min-h-[600px] lg:h-110 mx-auto shadow-[0_4px_12px_rgba(0,0,0,0.3)] rounded-3xl py-6 sm:py-8 lg:py-8 px-4 sm:px-6 lg:px-4 my-6 sm:my-8 lg:my-10">
+      <div className="gap-6 sm:gap-8 lg:gap-10 w-full max-w-7xl lg:w-7xl min-h-[400px] sm:min-h-[500px] md:min-h-[400px] lg:h-110 mx-auto shadow-[0_4px_12px_rgba(0,0,0,0.3)] rounded-3xl py-6 sm:py-8 lg:py-8 px-4 sm:px-6 lg:px-4 my-6 sm:my-8 lg:my-2">
         <h2 className='flex text-xl sm:text-2xl lg:text-2xl font-semibold mb-4 sm:mb-6 lg:mb-6 text-top-left text-underline py-3 sm:py-4 lg:py-5 px-4 sm:px-8 lg:px-14'>The design is visually congested</h2>
         <Image src="/Images/Redesign1.png" alt="The design is visually congested" width={1000} height={1000} className='justify-center w-full h-auto px-4 sm:px-8 lg:px-14 py-2' />
         <p className='text-base sm:text-lg lg:text-lg text-gray-700 px-4 sm:px-8 md:px-12 lg:px-54 py-3 sm:py-4 lg:py-5'>
