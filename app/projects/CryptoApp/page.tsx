@@ -97,8 +97,8 @@ const CryptoAppPage = () => {
         <div className='items-center px-4 sm:px-8 md:px-12 lg:px-40'>
           <div className='flex flex-row gap-25 justify-center '>
             <Image src="/Images/Cryptowireframe1.png" alt="Crypto App" width={300} height={500} />
-            <Image src="/Images/Cryptowireframe2.png" alt="Crypto App" width={300} height={500} />
-            <Image src="/Images/Cryptowireframe3.png" alt="Crypto App" width={300} height={500} />
+            <Image src="/Images/CryptoWireframe2.png" alt="Crypto App" width={300} height={500} />
+            <Image src="/Images/CryptoWireframe3.png" alt="Crypto App" width={300} height={500} />
           </div>
           <div className='flex flex-row gap-25 justify-center py-12 sm:py-16 lg:py-10'>
             <Image src="/Images/CryptoWireframe4.png" alt="Crypto App" width={300} height={500} />
