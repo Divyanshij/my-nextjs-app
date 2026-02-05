@@ -4,7 +4,7 @@ import Link from "next/link";
 
 const ProjectFooter = () => {
   return (
-    <footer className="w-screen bg-black text-white px-6 sm:px-10 md:px-16 py-16 flex flex-col items-center text-center -mx-6 sm:-mx-10 md:-mx-16">
+    <footer className="w-screen bg-black text-white px-6 sm:px-10 md:px-16 py-16 flex flex-col items-center text-center ml-[calc(-50vw+50%)]">
       {/* Main message */}
       <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold mb-8">
         I&apos;d love to create something great with your team,&nbsp;
